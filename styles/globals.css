@@ -1,0 +1,159 @@
+@font-face {
+	font-family: 'AerosRegular';
+	src: url('./fonts/AerosRegular.svg#AerosRegular') format('svg'),
+		 url('./fonts/AerosRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+@font-face {
+	font-family: 'aeros';
+	src: url('./fonts/aeros.eot');
+	src: url('./fonts/aeros.eot?#iefix') format('embedded-opentype'),
+		 url('./fonts/aeros.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-BlackItalic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-BlackItalic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Black.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Black.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Bold.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Regular.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-MediumItalic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-MediumItalic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Medium.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-Italic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-Italic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('./fonts/redhat/RedHatDisplay-BoldItalic.eot');
+    src: url('./fonts/redhat/RedHatDisplay-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/redhat/RedHatDisplay-BoldItalic.woff2') format('woff2'),
+        url('./fonts/redhat/RedHatDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	background: radial-gradient(126.16% 88.06% at 33.49% -22.78%, #535353 0%, #000000 100%);
+}
+
+img {
+	image-rendering: smooth;
+}
+
+.section {
+	font-family: 'AerosRegular';
+	color: #fff;
+}
+
+.normal-text {
+	font-family: 'Red Hat Display';
+}
+
+#scene-1 {
+    top: 50%;
+    right: 2.5rem
+}
+
+#scene-2 {
+    top: 33%;
+    left: 2.5rem
+}
+
+#scene-3 {
+    top: 66%;
+    left: 5rem
+}
+
+.planet-background {
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.header-bottom-border {
+	height: 1px;
+	background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50.52%, rgba(255, 255, 255, 0) 100%);
+	opacity: 0.6;
+}
+
+* {
+  	box-sizing: border-box;
+}
